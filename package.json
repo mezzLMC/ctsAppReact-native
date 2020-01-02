@@ -7,11 +7,17 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "rnpm": {
+    "assets": [
+   "./assets/fonts/"
+    ]
+  },
   "dependencies": {
     "expo": "~36.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-cli": "^2.0.1",
     "react-native-gesture-handler": "^1.5.3",
     "react-native-paper": "^3.4.0",
     "react-native-reanimated": "^1.4.0",
@@ -26,6 +32,5 @@
     "@babel/core": "^7.0.0",
     "babel-preset-expo": "~8.0.0"
   },
-  
   "private": true
 }

@@ -1,9 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
+  "expoServerPort": null,
   "packagerPort": 19001,
-  "packagerPid": 6224,
-  "expoServerNgrokUrl": "https://hw-6et.anonymous.ctsappreact.exp.direct",
-  "packagerNgrokUrl": "https://packager.hw-6et.anonymous.ctsappreact.exp.direct",
-  "ngrokPid": 14800
+  "packagerPid": 4732,
+  "expoServerNgrokUrl": "https://zk-n6b.lilma3zouz.ctsappreact-native.exp.direct",
+  "packagerNgrokUrl": "https://packager.zk-n6b.lilma3zouz.ctsappreact-native.exp.direct",
+  "ngrokPid": 5280,
+  "webpackServerPort": 19006
 }
