@@ -8,18 +8,29 @@ const style = StyleSheet.create({
         flex: 1,
     },
     body: {
-        marginTop: 50,
+        marginTop: 70,
     },
     arretInput:{
         borderBottomColor: "#69f0ae",
-        borderBottomWidth: 2,
+        borderBottomWidth: 3,
         marginLeft: 15,
         marginRight: 15,
         fontSize: 22.5,
         color: "#ffffff"
     },
+    numInputView: {
+        marginTop: 70,
+        flexDirection: 'row',
+        marginLeft: 140,
+    },
     numInput: {
-        marginTop: 50,
+        fontSize: 80,
+        height: 90,
+        width: 90,
+        borderBottomColor: "#69f0ae",
+        borderBottomWidth: 4,
+        borderBottomStartRadius: 5,
+        borderBottomEndRadius: 3,
     }
 })
 
@@ -34,8 +45,10 @@ class ClockView extends React.Component {
                 </Appbar.Header>
                 <View style={style.body}>
                     <TextInput placeholder="nom de l'arrêt" style={style.arretInput} />
-                    <TextInput placeholder="13" style={style.numInput} />
-                    <TextInput placeholder="13"/>
+                    <View style={style.numInputView}>
+                        <TextInput placeholder="13" style={style.numInput} />
+                        <TextInput placeholder="13" style={[style.numInput,{marginLeft: 20,}]}/>
+                    </View>
                     <Button title="valider"/>
                 </View>
             </View>
